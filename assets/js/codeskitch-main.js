@@ -37,7 +37,7 @@ function Submit(e,mailer)
         };
 
         $.ajax({
-            url: 'http://codeskitch.com/mailer'+mailer+'.php',
+            url: 'http://assets.codeskitch.com/mailer'+mailer+'.php',
             data: param,
             type: 'POST',
             dataType: "json",

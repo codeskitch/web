@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Reliable and really affordable web design and hosting solution">
+    <meta property="og:image" content="http://codeskitch.com/cdkt-logo.png" />
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <title>Codeskitch | Reliable and really affordable web design and hosting solution</title>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&amp;subset=latin" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/lightbox.css"  rel="stylesheet"/>
+
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="assets/css/codeskitch-theme.css">
+
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="assets/css/codeskitch-theme-lt-ie10.css">
+    <![endif]-->
+
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/lightbox-2.6.min.js"></script>
+    <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="navbar navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img src="assets/img/Logo.png" alt="Codeskitch" /></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="text-center"><a href="about-us">
+                        <img class="nav-icon" src="assets/img/About-Icon.png" alt="" />ABOUT CODESKITCH </a></li>
+                    <li class="text-center"><a href="packages-and-rates">
+                        <img class="nav-icon" src="assets/img/Cart-Icon.png" alt="" />PACKAGES &amp; RATES</a></li>
+                    <li class="text-center"><a href="http://blog.codeskitch.com" target="_blank">
+                        <img class="nav-icon" src="assets/img/Blog-Icon.png" alt="" />BLOG</a></li>
+                    <li class="text-center"><a href="contact-us">
+                        <img class="nav-icon" src="assets/img/Contact-Icon.png" alt="" />CONTACT</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </div>
+    <div class="cdkt-body">
+        <div id="register_div">
+		<div class="container">
+			<div id="api-client-signup">
+  <h1 style="
+    font-size: 70px;
+">Account Inactive.</h1>
+                <h4><hr></h4>
+<span>The page that you're trying to reach had been inactive for quite some time and been disabled. </span>
+<br><br><span>If you are the owner of the site and you want to re-enable it, please <a href="http://cpanel.codeskitch.com" style="color: red" target="_blank">login</a> to your Codeskitch account and send us a ticket.</span>  
+            </div>
+
+		</div>
+	</div>
+        <div id="contact-us" class="red-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 red-bg">
+                        <span id="text-contact" class="h2">Contact us NOW to get<br /> started with your website!</span>
+                    </div>
+                    <!-- /.col-lg-3 -->
+                    <div class="col-sm-6">
+                        <div id="mailsent" class="lead text-white padded-options" style="display: none">                            
+                            Awesome! <br />
+                            Your message was sent. <br />
+                            We will get back to you within 24 hours.
+                        </div>
+                        <form action="mailer.php" method="post" onsubmit="OnSubmit(event)">    
+                            <h3>CONTACT US</h3>      
+                            <div id="fail-alert" class="alert alert-danger" style="display: none">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                <strong>Oh snap!</strong> We've encountered an error. <a href="#" onclick="Submit(event,'1')">Resend?</a>
+                            </div>   
+                            <div id="error-alert" class="alert alert-danger" style="display: none">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                <strong>Oops!</strong> Kindly complete all fields below. Done? <a href="#" onclick="Submit(event,'')">Resend.</a>
+                            </div>         
+                            <p>   
+                                <input class="form-control " type="text" placeholder="Name"  id="name" name="name" required/>
+                                <label for="name" class="hide">*</label>
+                            </p>
+                            <p>
+                                <input class="form-control" type="tel" placeholder="Contact Number" id="phone" name="phone" required/>
+                            </p>
+                            <p>
+                                <input class="form-control" type="email" placeholder="Email Address" id="email" name="email" pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$" required title="username@domain.com"/>
+                                <label for="name" class="hide">*</label>
+                            </p>
+                            <select class="form-control">
+                                <option>General Inquiry</option>
+                            </select>
+                            <p>
+                            <textarea class="form-control" rows="4" placeholder="Type your message here" id="message" name="message" required></textarea>
+                               <label for="name" class="hide">*</label>
+                            </p>
+                            <button type="submit" class="btn btn-submit red-gradient pull-right" id="btnSubmit" data-loading-text="Sending..." data-complete-text="Sent!">Send</button>
+                            <br />
+                        </form>
+                    </div>
+                    <!-- /.col-lg-3 -->
+                </div>
+            </div>
+        </div>
+        <!-- /contact-us-->
+        <div id="footer">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="/">
+                        <img src="assets/img/Logo-Footer.png" alt="Codeskitch" /></a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="text-center"><a href="about-us">ABOUT CODESKITCH </a></li>
+                        <li class="text-center"><a href="packages-and-rates">PACKAGES &amp; RATES</a></li>
+                        <li class="text-center"><a href="http://blog.codeskitch.com" target="_blank">BLOG</a></li>
+                        <li class="text-center"><a href="contact-us">CONTACT</a></li>
+						<li class="text-center"><a href="contact-us">REGISTER</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript">
+            $('.fullwidthbanner').revolution(
+        {
+            delay: 9000,
+            startwidth: 1124,
+            startheight: 450,
+
+            onHoverStop: "on",						// Stop Banner Timet at Hover on Slide on/off
+
+            thumbWidth: 100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+            thumbHeight: 50,
+            thumbAmount: 4,
+
+            hideThumbs: 200,
+            navigationType: "both",					//bullet, thumb, none, both	 (No Shadow in Fullwidth Version !)
+            navigationArrows: "verticalcentered",		//nexttobullets, verticalcentered, none
+            navigationStyle: "round",				//round,square,navbar
+
+            touchenabled: "on",						// Enable Swipe Function : on/off
+
+            navOffsetHorizontal: 0,
+            navOffsetVertical: 20,
+
+            fullWidth: "on",
+
+            shadow: 0
+        });
+
+    </script>
+    <script src="assets/js/codeskitch-main.js"></script>
+<script type = "text/javascript">
+    $.urlParam = function(name){
+        var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if(results) {
+            return results[1] || 0;
+        }
+        return '';
+    }
+
+    function urldecode(url) {
+        return decodeURIComponent(url.replace(/\+/g, ' '));
+    }
+
+    function strip_tags (input, allowed) {
+        allowed = (((allowed || "") + "").toLowerCase().match(/<[a-z][a-z0-9]*>/g) || []).join('');
+        var tags = /<\/?([a-z][a-z0-9]*)\b[^>]*>/gi,
+            commentsAndPhpTags = /<!--[\s\S]*?-->|<\?(?:php)?[\s\S]*?\?>/gi;
+        return input.replace(commentsAndPhpTags, '').replace(tags, function ($0, $1) {
+            return allowed.indexOf('<' + $1.toLowerCase() + '>') > -1 ? $0 : '';
+        });
+    }
+
+    $(function() {
+
+        $('#reg input').each(function(){
+            var v = $.urlParam($(this).attr('name'));
+            if(v) {
+                $(this).val(urldecode(v));
+            }
+        });
+
+        var err = $.urlParam('error_msg');
+        if(err) {
+            $('<div class="error">').text(strip_tags(urldecode(err), '')).insertBefore('#reg');
+        }
+    });
+
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-46277511-1']);
+  _gaq.push(['_setDomainName', 'inactive.codeskitch.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>

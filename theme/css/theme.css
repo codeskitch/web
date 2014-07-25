@@ -1,0 +1,45 @@
+/**custom **/
+#login_form input.txt, #login_form select{
+display: block;
+width: 100%;
+height: 28px;
+padding: 3px 5px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+vertical-align: middle;
+background-color: #fff;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+-webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#bef-main .form .logo {
+height: 45px;
+}
+#bef-main .form {
+width: 310px;
+height: 306px;
+background-color:#D6D6D6 !important;
+margin: 100px auto 0 auto;
+overflow: auto;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border: solid 1px #EBEBEB;
+}
+.picture
+{
+background: url('../img/hostcover.jpg') #fff no-repeat !important;
+}
+.but button
+{
+cursor: pointer
+}
